@@ -30,7 +30,8 @@ end
 
 def retrieve_element_from_index(array, index_number)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  puts array.at(2)
+  index_number = 2
+  retrieve_element_from_index(array, 2)
 end
 
 def retrieve_first_element_from_array(array)
