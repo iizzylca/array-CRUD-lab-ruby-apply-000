@@ -1,5 +1,5 @@
 def create_an_empty_array
-  array = Array.new(nil.to_i)
+  array = Array.new(nil)
 
 end
 
